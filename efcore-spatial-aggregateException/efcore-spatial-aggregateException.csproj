@@ -1,9 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>efcore_spatial_aggregateException</RootNamespace>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Boerman.Core" Version="2.0.2" />
+    <PackageReference Include="CsvTextFieldParser" Version="1.1.1" />
+    <PackageReference Include="Boerman.FlightAnalysis" Version="1.1.0-beta2" />
+    <PackageReference Include="GeoAPI" Version="1.7.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0-rtm-35544" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="2.2.0-rtm-35544" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0-rtm-35544">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0-rtm-35544" />
+  </ItemGroup>
 
 </Project>
